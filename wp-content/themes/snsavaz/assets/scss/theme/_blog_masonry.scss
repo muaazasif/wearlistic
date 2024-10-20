@@ -1,0 +1,40 @@
+/***************************************************
+	scss file: /assets/scss/theme/_blog_masonry.scss
+		+ Blog Masonry Layout
+			- sns-grid-masonry
+****************************************************/
+
+.sns-grid-masonry{
+	margin-left: -15px;
+	margin-right: -15px;
+	.sns-grid-item{
+		width: 33.33%;
+		margin-bottom: 30px;
+		padding-right: 15px;
+		padding-left: 15px;
+		overflow: hidden;
+		@media(max-width: 768px){
+			width: 50%;
+		}
+		@media(max-width: 480px){
+			width: 100%;
+		}
+
+		h2.page-header{
+			font-size: 1.667em;
+		}
+	}
+
+	&+.navigation{
+		margin-top: 10px;
+	}
+}
+
+// Blog layout Masonry has sidebar
+.sns-main.col-md-9{
+	@media(min-width: 768px){
+		.sns-grid-item{
+			width: 50%;
+		}
+	}
+}

@@ -1,0 +1,6 @@
+[submodule "dashboard"]
+	path = dashboard
+	url = https://github.com/getbowtied/themes-dashboard.git
+[submodule "freemius"]
+	path = freemius
+	url = https://github.com/Freemius/wordpress-sdk
